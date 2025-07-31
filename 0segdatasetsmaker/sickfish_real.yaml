@@ -1,0 +1,9 @@
+# 实际拍摄的多条鱼数据
+train: D:\00a\last\sick\split\images\train  # train images (relative to 'path') 128 images   这个文件夹里是送公司制作的数据                                                                                                              train: D:\yolov8datasets\zebrafish\images\train  # train images (relative to 'path') 128 images
+val: D:\00a\last\sick\split\images\val  # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+# Classes
+names:
+  0: zf
+  1: sick_zf

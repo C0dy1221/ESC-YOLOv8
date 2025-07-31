@@ -1,0 +1,28 @@
+# 单条鱼合并的图像
+#train: D:\sickFishDetection\imageandjsonmerge\split\images\train  # train images (relative to 'path') 128 images   这个文件夹里是送公司制作的数据，图片已经缩小了，最好训练的图像也不要是原图，原图太慢了。                                                                                                                  train: D:\yolov8datasets\zebrafish\images\train  # train images (relative to 'path') 128 images
+#val: D:\sickFishDetection\imageandjsonmerge\split\images\val  # val images (relative to 'path') 128 images
+#test: D:\sickFishDetection\imageandjsonmerge\split\images\test # test images (optional)
+#
+## Classes
+#names:
+#  0: zebrafish
+
+# 实际拍摄的多条鱼数据
+#train: D:\yolov8datasets\sickmorefish\split\images\train  # train images (relative to 'path') 128 images   这个文件夹里是送公司制作的数据                                                                                                              train: D:\yolov8datasets\zebrafish\images\train  # train images (relative to 'path') 128 images
+#val: D:\yolov8datasets\sickmorefish\split\images\val  # val images (relative to 'path') 128 images
+#test: D:\yolov8datasets\sickmorefish\split\images\test # test images (optional)
+#
+## Classes
+#names:
+#  0: zebrafish
+
+
+# 混合了单条鱼的wt和single sick fish 和真实养殖场景下多条鱼的
+train: D:\00a\sickfishdataset\split\images\train  # train images (relative to 'path') 128 images   这个文件夹里是送公司制作的数据，图片已经缩小了，最好训练的图像也不要是原图，原图太慢了。                                                                                                                  train: D:\yolov8datasets\zebrafish\images\train  # train images (relative to 'path') 128 images
+val: D:\00a\sickfishdataset\split\images\val  # val images (relative to 'path') 128 images
+test: # test images (optional)
+
+# Classes
+names:
+  0: zf
+  1: sick_zf
